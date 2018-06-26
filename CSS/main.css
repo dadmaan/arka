@@ -124,6 +124,18 @@
 }
 /* End of Overlay Menu */
 /* Nacbar Media Queries */
+@media screen and (min-width: 1920px){
+    .topnav ul li > a {
+        padding: 7px 25px;
+        font-size: 28px;
+    }
+    .topnav {
+        padding-left: 13%;
+    }
+    .brand img {
+        width: 350px;
+    }
+}
 @media screen and (max-width:1149px) {
     .topnav{
         width: 70%;
@@ -227,6 +239,20 @@ footer{
     font-size: 12px;
 }
 /*footer Media Queries */
+@media screen and (min-width: 1920px){
+    #footer-logo address {
+        font-size: 1.5em;
+    }
+    #footer-contact .row div a {
+        font-size: 26px;
+    }
+    #footer-nav nav a {
+        font-size: 25px;
+    }
+    #footer-nav p {
+        font-size: 17px;
+    }
+}
 @media screen and (max-width:1024px){
     #footer-contact .row div h5 {
         font-size: 27px;
@@ -241,6 +267,9 @@ footer{
 @media screen and (max-width:540px){
     #footer-contact .row div h5 {
         font-size: 22px;
+    }
+    #footer-nav nav a {
+        font-size: 12px;
     }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Footer~~~~~~~~~~~~~~~~~~~~~~~~~~  */

@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: -webkit-gradient(linear, top, bottom, from(#FF5825), to(#EEA130));
+    background-image: -webkit-linear-gradient(top, #FF5825, #EEA130);
+    background-image: -moz-linear-gradient(top, #FF5825, #EEA130);
+    background-image: linear-gradient(to bottom, #FF5825, #EEA130);
+}
+/* Navbar Customazation */
+#menuToggle {background-color: #FF5825;}
+/* End of Navbar Customazation */
+/* Description Section */
+#description .row{
+    margin: 0;
+}
+#header{
+    padding: 15% 26%;
+}
+.section-padding{
+    padding: 0px 20% 20% 20%;
+}
+.section-padding:last-child{
+    padding: 0 26% 15% 26%;
+}
+.section-padding:last-child > div > img{
+    width: 35%;
+}
+.section-padding:last-child > div:nth-child(1){
+    text-align: center;
+    padding-bottom: 10%;
+}
+.paragraph{
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+/* Media Queries */
+@media screen and (min-width:1920px){
+    .paragraph{
+        font-size: 40px;
+    }
+    .section-padding:last-child > div > img {
+        width: 30%;
+    }
+}
+@media screen and (max-width:991px){
+    #header {
+        padding: 15% 22%;
+    }
+    .section-padding,
+    .section-padding:last-child{
+        padding: 0 20% 15% 20%;
+    }
+    .section-padding:not(last-child) > div > img{
+        width: 35%;
+    }
+    .section-padding:not(last-child) > div:nth-child(1){
+        text-align: center;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (max-width:540px){
+    #header{
+        padding: 20% 10% 30% 10%;
+    }
+    .paragraph{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-padding,
+    .section-padding:last-child{
+        padding: 0 10% 30% 10%;
+    }
+    .section-padding > div > img,
+    .section-padding:last-child > div > img{
+        width: 50%!important;
+    }
+}
+/* End of Media Queries */
+/* End of Description Section */
+/* Footer */
+footer {
+    padding-top: 20%;
+}
