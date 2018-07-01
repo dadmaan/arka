@@ -22,7 +22,7 @@
   .topnav ul li > a {
     float: left;
     display: block;
-    color: #000000;
+    color: white;
     text-align: center;
     padding: 7px 16px;
     text-decoration: none;
@@ -32,7 +32,7 @@
   
   .active {
     background-color: #9FCCE3;
-    color: black;
+    color: black!important;
     border-radius: 47px 47px 0px 47px;
   }
   
@@ -256,6 +256,11 @@ footer{
 @media screen and (max-width:1024px){
     #footer-contact .row div h5 {
         font-size: 27px;
+    }
+}
+@media screen and (max-width: 768px){
+    #footer-logo img {
+        width: 60%;
     }
 }
 @media screen and (max-width:768px) and (min-width:540px){

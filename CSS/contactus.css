@@ -1,0 +1,148 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin:0;
+    background-image: -webkit-gradient(linear, right, left, from(#010448), to(#2AA3F1));
+    background-image: -webkit-linear-gradient(right, #010448, #2AA3F1);
+    background-image: -moz-linear-gradient(right, #010448, #2AA3F1);
+    background-image: linear-gradient(to left, #010448, #2AA3F1);
+}
+/* map section */
+section{
+    background-color: transparent;
+    height: auto;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.4);
+}
+#google-map{
+    width: 100%;
+    min-height: 580px;
+}
+#contactus-info{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    background-color: rgb(1, 32, 92, 0.8);
+    color: white;
+    border-radius: 20px 20px 90px 0;
+    width: 30%;
+    top: 20%;
+    right: 5%;
+    padding: 4% 3%;
+}
+#contactus-info h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+#contactus-info hr{
+    border: 2px solid white;
+    background-color: white;
+}
+#contactus-info address,
+#contactus-info .row .contact-icon a{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}    
+#contactus-info .row .contact-icon a span{
+    font-size: 18px;
+}
+#contactus-info .row{
+    margin: 0;
+}
+.contact-icon{
+    margin-bottom: 10px;
+}
+.contact-icon img{
+    width: 15%;
+    padding-right: 5px;
+}
+/* Media Queries */
+@media screen and (max-width:1440px){
+    #contactus-info {
+        top: 21%;
+        padding: 2% 3%;
+    }
+    #google-map {
+        min-height: 500px;
+    }
+}
+@media screen and (max-width:1369px) and (min-width:1133px){
+    #contactus-info{
+        width: 35%;
+    }
+}
+@media screen and (max-width:1132px){
+    #contactus-info{
+        width: 40%;
+    }
+}    
+@media screen and (max-width:966px){
+    #contactus-info{
+        width: 42%;
+    }
+    #contactus-info {
+        top: 28%;
+    }
+    #contactus-info address, 
+    #contactus-info .row .contact-icon a {
+        font-size: 17px;
+    }
+    #contactus-info .row .contact-icon a span{
+        font-size: 14px;
+    }
+    #contactus-info h1 {
+        font-size: 27px;
+    }
+} 
+@media screen and (max-width:768px){
+    #contactus-info {
+        top: 75%;
+        right: 25%;
+        width: 50%;
+        text-align: center;
+    }
+    #google-map {
+        min-height: 800px;
+    }
+}
+@media screen and (max-width:700px){
+    #contactus-info {
+        top: 65%;
+        right: 13%;
+        width: 70%;
+        text-align: center;
+        padding: 4% 3%
+    }
+    #contactus-info h1 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:425px){
+    #contactus-info {
+        width: 90%;
+        right: 5%;
+    }
+}
+/* End of Media Queries */
+
+/* End of map section */
+
+
+/* Footer Customazation */
+footer{
+    padding-top: 2%;
+    text-align: center;
+    background-color: transparent;
+}
+footer p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+@media screen and (max-width:768px){
+    footer p {
+        font-size: 10px;
+    }
+}
+/* End of Footer Customazation */

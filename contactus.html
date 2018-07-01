@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/main.css">
-
+    <link rel="stylesheet" href="CSS/contactus.css">
     <script>
         function menuToggler(x) {
             x.classList.toggle("change");
@@ -42,7 +42,7 @@
         <div class="topnav" id="myTopnav">
             <ul>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="aboutus.html">About Us</a>
@@ -54,7 +54,7 @@
                     <a href="product.html">Products</a>
                 </li>
                 <li>
-                    <a href="contactus.html">Contact Us</a>
+                    <a href="contactus.html" class="active">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -65,10 +65,12 @@
         </div>
     </nav>
     <!-- End of Navbar -->
-    <!-- Footer -->
-    <footer>
-        <div id="footer-logo">
-            <img src="IMAGES/logo/arka-white.png" alt="Arka Energy Iranian Logo">
+    <!-- Map -->
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.398509388961!2d51.418588441402285!3d35.71641659078317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e01689be48661%3A0x1e4bcae51d869c8e!2z2K_Zgdiq2LEg2LPbjNmG2YXYp9uM24wg2LTYp9mH2KjbjNmG!5e0!3m2!1sen!2snl!4v1530176631842"
+            id="google-map" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="contactus-info">
+            <h1>Visit Us or Call Us 24/7</h1>
             <hr>
             <address>
                 Our Address:
@@ -77,32 +79,23 @@
                 <br> Tehran - Iran
                 <br> P.C.1585696995
             </address>
-        </div>
-        <div id="footer-contact">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <img src="IMAGES/Contact Us/phone.svg" alt="">
-                    <h5>E-Mail US</h5>
-                    <a href="mailto:arka@arka-eng.com">Arka@Arka-eng.com</a>
+                <div class="contact-icon col-sm-12">
+                    <img class="aling-self-center" src="IMAGES/Contact Us/phone-white.svg" alt="">
+                    <a href="mailto:arka@arka-eng.com">E-Mail US: <span>Arka@Arka-eng.com</span></a>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <img src="IMAGES/Contact Us/email.svg" alt="">
-                    <h5>Call US</h5>
-                    <a href="callto:+982188140672">+9821  8814  0672 - 3</a>
+                <div class="contact-icon col-sm-12">
+                    <img class="aling-self-center" src="IMAGES/Contact Us/email-white.svg" alt="">
+                    <a href="callto:+982188140672">Call US: <span>+9821  8814  0672 - 3</span></a>
                 </div>
             </div>
         </div>
-        <div id="footer-nav">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="#service">Services</a>
-                <a href="product.html">Products</a>
-                <a href="contactus.html">Contact Us</a>
-            </nav>
-            <p>2018 ARKA ENERGY IRANIAN All Rights Reserved
-                <br> Designed and Maintained By Shayan Dadman</p>
-        </div>
+    </section>
+    <!-- End of Map -->
+    <!-- Footer -->
+    <footer>
+        <p>2018 ARKA ENERGY IRANIAN All Rights Reserved
+            <br> Designed and Maintained By Shayan Dadman</p>
     </footer>
     <!-- End of Footer -->
 </body>

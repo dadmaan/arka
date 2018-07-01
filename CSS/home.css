@@ -1,0 +1,514 @@
+.row{
+    margin: 0;
+}
+/* Header */
+#home-header{
+    background-image: url('home.jpg');
+    background-attachment: scroll;
+    background-position:right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#intro-header{
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#home-header #intro-header div > h1{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0 50px rgb(0,0,0,0.4);
+}
+#home-header #intro-header div > p{
+    background-color: rgb(0, 0, 0, 0.6);
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    color: white;
+    width: 40%;
+    padding: 1%;
+    border-bottom: solid white 5px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width:1440px){
+    #home-header #intro-header div > h1 {
+        font-size: 50px;
+    }
+    #home-header #intro-header div > p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:991px){
+    #intro-header {
+        padding: 5%;
+        width: 60%;
+        margin: auto;
+        background-color: rgb(1,32,92,0.4);
+        border-radius: 40px;
+        margin-top: 5%;
+    }
+    #home-header #intro-header div > h1,
+    #home-header #intro-header div > p {
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:648px){
+    #intro-header{
+        width: 70%;
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width:540px){
+    #intro-header{
+        width: 90%;
+    }
+    #home-header #intro-header div > h1 {
+        font-size: 40px;
+    }
+    #home-header #intro-header div > p {
+        font-size: 20px;
+    }        
+}
+@media screen and (max-width: 320px){
+    #home-header #intro-header div > h1 {
+    font-size: 35px;}
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~ End of Media Queries ~~~~~~~~~~~~~~~~*/
+/* End of Header */
+/* Aboutus Section */
+#home-aboutus{
+    padding-top: 20%;
+    padding-bottom: 30%;
+    position: relative;
+}
+/* Service and About Us Section Header */
+#home-aboutus .row{
+    margin: 0;
+    padding: 0 10%;
+}
+#home-aboutus .row div h1,
+#service-header .row div h1{
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    font-size: 55px;
+}
+#home-aboutus .row div p,
+#service-header .row div p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+/* End of Service and About Us Section Header */
+#aboutus-img-container{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+#aboutus-img-container img{
+    width: 100%;
+}
+/* Media Wueries */
+@media screen and (max-width:1402px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1281px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:1161px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 39px;
+    }
+    #home-aboutus .row div p,
+    #service-header .row div p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:992px){
+    #home-aboutus {
+        padding-bottom: 50%;
+    }
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 55px;
+        text-align: center;
+        border-bottom: solid;
+    }
+    #home-aboutus .row div p,
+    #service-header .row div p {
+        font-size: 25px;
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:701px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:617px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 43px;
+    }
+}
+@media screen and (max-width:557px){
+    #home-aboutus .row div h1,
+    #service-header .row div h1 {
+        font-size: 40px;
+    }
+    #home-aboutus .row div p,
+    #service-header .row div p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1440px){}
+/* End of Media Queries */
+/* End of Aboutus Section */
+/* First Quote */
+#first-quote{
+    padding: 0 10%;
+    width: 100%;
+    background-image: -webkit-gradient(linear, right, left, from(#EEA130), to(#FF5825));
+    background-image: -webkit-linear-gradient(right, #EEA130, #FF5825);
+    background-image: -moz-linear-gradient(right, #EEA130, #FF5825);
+    background-image: linear-gradient(to left, #EEA130, #FF5825);
+    border-bottom: solid black 10px;
+}
+#big-span{
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 200px;
+    padding-right: 1%;
+}
+#first-quote p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    width: 80%;
+    align-self: center;
+}
+.quote-responsive{
+    display: none;
+    line-height: 0;
+    font-size: 60px;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+/* Media Queries */
+@media screen  and (max-width:1058px){
+    #big-span {
+        font-size: 180px;
+    }
+    #first-quote p {
+        font-size: 25px;
+    }
+}
+@media screen  and (max-width:881px){
+    #big-span {
+        font-size: 150px;
+    }
+    #first-quote p {
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width:712px){
+    #big-span {
+        font-size: 130px;
+    }
+    #first-quote p {
+        font-size: 18px;
+    }
+}
+@media screen  and (max-width:617px){
+    #big-span{
+        display: none;
+    }
+    .quote-responsive{
+        display: inline-block;
+    }
+    #first-quote {
+        padding: 12% 5% 3%;
+    }
+    #first-quote p {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:425px){
+    
+    #first-quote {
+        padding: 10% 5% 0;
+    }
+}
+/* End of Media Queries */
+/*~~~~~~~~~~~~~~~~~ End of First Quote */
+/* ~~~~~~~~~~~~~~~~ Service Section */
+#service{
+    padding: 20% 0;
+}
+#service > .row{
+    padding: 0 20%;
+}
+#service-header{
+    padding-bottom: 15%;
+}
+.service-section {
+    background-color: #2466A9;
+    margin-bottom: 15%;
+    padding: 30% 5% 5%;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.4);
+}
+#service .row > .service-section:last-child {
+    background-color: #48BAD9;
+
+}
+.service-section  h1{
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+}
+.service-section p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    width: 70%;
+    padding-bottom: 2%;
+}
+.service-section a{
+    padding: 2% 5%;
+    background-image: -webkit-gradient(linear, right, left, from(#EEA130), to(#FF5825));
+    background-image: -webkit-linear-gradient(right, #EEA130, #FF5825);
+    background-image: -moz-linear-gradient(right, #EEA130, #FF5825);
+    background-image: linear-gradient(to left, #EEA130, #FF5825);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 90px 90px 90px;
+    transition: 0.2s ease-in;
+}
+.service-section a:hover,
+.service-section a:focus{
+    box-shadow: 0px 0px 30px rgb(255,255,255,0.4);
+}
+/* Media Queries */
+@media screen and (max-width:1440px){
+    .service-section p{
+        font-size: 22px;
+    }
+    .service-section a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1024px){
+    .service-section a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:991px){
+    .service-section{
+        padding-bottom: 10%;
+    }
+    .service-section p{
+        width: 100%;
+    }
+    .service-section a{
+        font-size: 16px;
+        padding: 3% 5%;
+    }
+}
+@media screen and (max-width:768px){
+    .service-section a{
+        font-size: 16px;
+        padding: 3% 6%;
+    }
+    .service-section a{
+        padding: 3% 6%;
+    }
+}
+@media screen and (max-width:540px){
+    #service > .row {
+        padding: 0 10%;
+    }
+    .service-section  h1{
+        font-size: 35px;
+    }
+    .service-section p{
+        font-size: 18px;
+    }
+}
+/* End of Media Queries */
+/* ~~~~~~~~~~~~~~~~ End of Service Section */
+/* Product Section */
+#product-section{
+    text-align: center;
+    padding: 40% 25% 20%;
+    background-image: url('home-product.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#product-section h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 10%;
+}
+#product-section h1 span{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+#product-section a{
+    padding: 3% 6%;
+    background-color: #9FCCE3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 90px 0 90px 90px;
+    transition: 0.2s ease-in;
+}
+#product-section a:hover,
+#product-section a:focus{
+    box-shadow: 0px 0px 30px rgb(255,255,255,0.4);
+}
+/* Media Queries */
+@media screen and (max-width:1024px){
+    #product-section a{
+        padding: 4% 6%;
+    }
+}
+@media screen and (max-width:991px){
+    #product-section{
+    padding: 70% 15% 20%;
+    }
+}
+@media screen and (max-width:540px){
+    #product-section h1 {
+        font-size: 25px;
+    }
+    #product-section a {
+        font-size: 18px;
+    }
+}
+/* End of Media Queries */
+/* End of Product Section */
+/* Second Quote */
+#second-quote{
+    min-height: 70vh;
+    position: relative;
+    background-color: white;
+}
+#second-quote div{
+    position: absolute;
+    bottom: -60%;
+    right: 21%;
+    padding: 10%;
+    background-color: #EEA130;
+    width: 60%;
+    border-radius: 50px 0 200px 50px;
+}
+#second-quote div h1{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: solid white 15px;
+}
+#second-quote div h1 span{
+    font-size: 120px;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 9%;
+}
+/* Media Queries */
+@media screen and (max-width:1300px){
+    #second-quote div h1 {
+        font-size: 21px;
+    }
+    #second-quote div h1 span{
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:1300px){
+    #second-quote div h1 {
+        font-size: 21px;
+    }
+    #second-quote div h1 span{
+        font-size: 85px;
+    }
+}
+@media screen and (max-width:991px){
+    #second-quote div {
+        padding: 16% 8%;
+        border-radius: 50px 0 120px 50px;
+    }
+    #second-quote div h1 span {
+        top: 13%;
+        left: 7%;
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:768px){
+    #second-quote div {
+        padding: 22% 6%;
+        right: 15%;
+        bottom: -45%;
+        width: 70%;
+    }
+    #second-quote div h1 span {
+        font-size: 100px;
+            top: 18%;
+            left: 2%;
+    }
+}@media screen and (max-width:676px){
+    #second-quote div h1 {
+    font-size: 18px;
+    border-bottom: solid white 5px
+    }
+#second-quote div h1 span {
+    font-size: 70px;
+    top: 20%;
+    left: 3%;
+    }
+}
+@media screen and (max-width:560px){
+    #second-quote div {
+        padding: 30% 12%;
+        right: 5%;
+        bottom: -20%;
+        width: 90%;
+    }
+    #second-quote div h1 {
+        text-align: center;
+            font-size: 20px;
+    }
+    #second-quote div h1 span {
+        display: none;
+    }
+}
+/* End of Media Queries */
+/* End of Second Quote */

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/home.css">
+
 
     <script>
         function menuToggler(x) {
@@ -36,35 +38,124 @@
         </div>
     </div>
     <!-- End of Overlay Menu -->
-    <!-- Navbar -->
-    <nav>
-        <a class="brand" href="index.html"><img src="IMAGES/logo/arka-or.png" alt=""></a>
-        <div class="topnav" id="myTopnav">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="aboutus.html">About Us</a>
-                </li>
-                <li>
-                    <a href="#service">Services</a>
-                </li>
-                <li>
-                    <a href="product.html">Products</a>
-                </li>
-                <li>
-                    <a href="contactus.html">Contact Us</a>
-                </li>
-            </ul>
+    <!-- Header -->
+    <header id="home-header">
+        <!-- Navbar -->
+        <nav>
+            <a class="brand" href="index.html"><img src="IMAGES/logo/arka-or.png" alt=""></a>
+            <div class="topnav" id="myTopnav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#service">Services</a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="active">Products</a>
+                    </li>
+                    <li>
+                        <a href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuToggle" onclick="menuToggler(this), openOverlay()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+        <!-- End of Navbar -->
+        <section id="intro-header" class="row">
+            <div class="col-sm-12">
+                <h1>As an <br>Engineering <br>Company
+                </h1>
+            </div>
+            <div class="col-sm-12">
+                <p>we are a leading supplier of equipment to the Oil &amp; Gas Industries in Iran and offered different engineering,
+                    and procurement Services since 2010.</p>
+            </div>
+        </section>
+    </header>
+    <!-- End of Header -->
+    <!-- About Us Section -->
+    <section id="home-aboutus">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h1>Brief Description of<br>What We<br>Do</h1>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <p>The main equipment supplied by AEI include Shell &amp; Tube Heat Exchangers, Plate Heat Exchangers, Reactors,
+                    Pressure Vessels, Different Types of Valves, Pumps, Specialty Gases, and Off Gas Treatment Packages and
+                    offer products, and equipment for the Oil &amp; Gas sector.<br><br>Engineering Services are also a part
+                    of activities offered by us. They range from Conceptual Design, to Procurement Services, and Management
+                    Consultancy.
+                    <br><br>We also offer commissioning, and after sales services for the equipment we supply.
+                </p>
+            </div>
         </div>
-        <div id="menuToggle" onclick="menuToggler(this), openOverlay()">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div id="aboutus-img-container"><img src="IMAGES/home-aboutus.png" alt=""></div>
+    </section>
+    <!-- End of About Us Section -->
+    <!-- First Quote -->
+    <section id="first-quote" class="row">
+        <span id="big-span">O</span>
+        <p><span class="quote-responsive">O</span> ur policy is to gain customer satisfaction in all stages of our activities
+            which is mainly from receiving inquiry from the customer to the delivery of the equipment.</p>
+    </section>
+    <!-- End of First Quote -->
+    <!-- Our Services -->
+    <section id="service">
+        <div class="row">
+            <div id="service-header" class="col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h1>What Are Our<br>Services</h1>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <p>AEI offers engineering services which would meet all the engineering demands of oil and gas projects.
+                            These services consist of basic and detailed engineering, feasibility studies, and Management
+                            Consultancy Services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-section col-sm-12">
+                <h1>Commercial Services</h1>
+                <p>AEI offers commercial services to companies who wish to purchase any of the products within AEI supplying
+                    range mentioned in the products’ page. The services offered by AEI include registration of the order
+                    in the ministry of commerce, importing and transportation of the goods to any desired customs in Iran,
+                    releasing of the goods from the customs, and deliver it to the customer in their desired destination.</p>
+                <a href="callto:+982188140672">Call us Now</a>
+            </div>
+            <div class="service-section col-sm-12">
+                <h1>Engineering Services</h1>
+                <p>AEI offers engineering services which would meet all the engineering demands of oil and gas projects. These
+                    services consist of basic and detailed engineering, feasibility studies, and Management Consultancy Services.
+                    Offering Procurement services to projects, especially on process equipment, is also one of the expertise
+                    of AEI which is mainly based on the experience of the AEI managers.</p>
+                <a href="callto:+982188140672">Call us Now</a>
+            </div>
         </div>
-    </nav>
-    <!-- End of Navbar -->
+    </section>
+    <!-- End of Our Services -->
+    <!-- Products Section -->
+    <section id="product-section">
+        <h1><span>We</span> offers a wide range of products especially but not limited to the process sectors of Oil Refineries,
+            Petrochemical Plants, and Gas Refineries.</h1>
+        <a href="product.html">Check Our Products Page</a>
+    </section>
+    <!-- End of Products Section -->
+    <!-- Second Quote -->
+    <section id="second-quote">
+        <div>
+            <h1><span>"</span> Engineering Services offered by AEI range from Conceptual Design, feasibility study, up to Procurement Services
+                which includes technical assistance in form of having technical meetings with the customers</h1>
+        </div>
+    </section>
+    <!-- End of Second Quote -->
     <!-- Footer -->
     <footer>
         <div id="footer-logo">

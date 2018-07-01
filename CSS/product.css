@@ -1,0 +1,179 @@
+/* Header */
+#product-header{
+    background-image: url('product.jpg');
+    background-attachment: scroll;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#intro-header{
+    margin: 0;
+    padding-top: 15%;
+}
+#product-header #intro-header > div:nth-child(1){
+    padding: 0 2%;
+    border-right: solid white 5px;
+}
+#product-header #intro-header div > h1{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    color: white;
+    text-align: right;
+}
+#product-header #intro-header div > p{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    width: 65%;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width:1440px){
+    #product-header #intro-header div > h1 {
+        font-size: 50px;
+    }
+    #product-header #intro-header div > p {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:991px){
+    #intro-header {
+        width: 60%;
+        margin: auto;
+    }
+    #product-header #intro-header > div:nth-child(1) {
+        padding: 0 2%;
+        border-right: none;
+        border-bottom: solid white 5px;
+    }
+    #product-header #intro-header div > h1,
+    #product-header #intro-header div > p {
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:540px){
+    #product-header #intro-header div > p {
+        font-size: 25px;
+    }        
+}
+@media screen and (max-width: 320px){
+    #product-header #intro-header div > h1 {
+    font-size: 40px;}
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~ End of Media Queries ~~~~~~~~~~~~~~~~*/
+/* End of Header */
+/* Product Description */
+#description-header{
+    margin: 0;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0;
+}
+#description-header h1{
+    font-family: 'Merriweather', serif;
+    font-size: 90px;
+    font-weight: 800;
+}
+#description-header p{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+#product-introduction{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(#010448), to(#2AA3F1));
+    background-image: -webkit-linear-gradient(top, #010448, #2AA3F1);
+    background-image: -moz-linear-gradient(top, #010448, #2AA3F1);
+    background-image: linear-gradient(to bottom, #010448, #2AA3F1);
+}
+#product-introduction .row{
+    margin: 0;
+}
+#product-introduction .row > div{
+    padding: 5% 2%;
+}
+.product-content h2{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #48BAD9;
+    margin-bottom: 30px;
+}
+.product-content p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+.product-image{
+    text-align: center;
+}
+.product-image img{
+    width: 60%;
+    border-radius: 10px;
+}   
+/*~~~~~~~~~~~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~*/
+@media screen and (max-width:1440px){
+    #description-header p {
+        font-size: 25px;
+    }
+    #description-header h1 {
+        font-family: 'Merriweather', serif;
+        font-size: 70px;
+        font-weight: 800;
+    }
+}
+@media screen and (max-width:1232px){
+    .product-content p {
+        font-size: 22px;
+    }
+    .product-content h2 {
+        font-size: 35px;
+    }
+    .product-image img {
+        width: 70%;
+    }
+}
+@media screen and (max-width:991px){
+   
+}
+@media screen and (max-width:768px){
+    #description-header{
+        width: 70%;
+    }
+    .product-image img {
+        width: 90%;
+    }
+}
+@media screen and (max-width:540px){
+    #description-header{
+        width: 80%;
+    }
+    #description-header{
+        padding: 20% 0;
+    }
+}
+@media screen and (max-width:320px){
+    .product-content h2 {
+        font-size: 30px;
+    }
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ End of Media Queries ~~~~~~~~~~~~~~*/
+/* End of Product Description */
+
+/* Navbar  */
+.topnav ul li > a{
+    color: white;
+}
+/* End of Navbar  */
+
+/* Footer Customazation */
+footer{
+    padding-top: 20%;
+}
+/* End of Footer Customazation */
