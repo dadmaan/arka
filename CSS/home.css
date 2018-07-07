@@ -3,6 +3,7 @@
 }
 /* Header */
 #home-header{
+    background-color: #2466A9;
     background-image: url('home.jpg');
     background-attachment: scroll;
     background-position:right;
