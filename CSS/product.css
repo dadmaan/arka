@@ -1,5 +1,6 @@
 /* Header */
 #product-header{
+    background-color: black;
     background-image: url('product.jpg');
     background-attachment: fixed;
     background-position: bottom center;
